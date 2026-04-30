@@ -20,7 +20,7 @@ def main():
         time.sleep(2)  # Laisse le temps à l'Arduino de se réinitialiser
 
         # Envoi de la commande
-        ser.write(b"?")
+        ser.write(b"V")
         ser.flush()
 
         # Lecture de la réponse
